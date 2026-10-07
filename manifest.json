@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.rk4500.archer-audio",
-  "name": "Archer Audio",
+  "id": "io.github.rk4500.audio-tooltip",
+  "name": "Audio Panel with Tooltip",
   "version": "1.0.0",
-  "author": "Omarchy",
+  "author": "rk4500 (fork of Omarchy)",
   "description": "Volume slider, output picker, per-app mixer",
   "kinds": [
     "bar-widget"
@@ -12,12 +12,13 @@
     "barWidget": "Panel.qml"
   },
   "barWidget": {
-    "displayName": "Archer Audio",
+    "displayName": "Audio Panel with Tooltip",
     "description": "Volume slider, output picker, per-app mixer",
     "category": "Audio",
     "allowMultiple": false
   },
   "omarchy": {
     "clonedFrom": "omarchy.audio"
-  }
+  },
+  "homepage": "https://github.com/rk4500/omarchy-audio-tooltip"
 }
